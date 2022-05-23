@@ -1,0 +1,32 @@
+{
+  "name": "is-pw-pwned",
+  "version": "1.0.0",
+  "description": "check if password has been pwned",
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=17.0.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarrenMa/is-pw-pwned.git"
+  },
+  "author": "Darren Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarrenMa/is-pw-pwned/issues"
+  },
+  "homepage": "https://github.com/DarrenMa/is-pw-pwned#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "prompt-sync": "^4.2.0"
+  }
+}
